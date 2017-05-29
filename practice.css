@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+.inner{
+  margin-left: 20px;
+  background-color: white;
+   width: 100px;
+   height: 100px;
+}
+.header{
+  background-color: green;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+  font-family: times;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+}
+.leftBlock{
+  margin-left: 100px;
+  background-color: red;
+  color: blue;
+  height: 300px;
+  width: 500px;
+  display: inline-block;
+}
+aside {
+  display: inline-block;
+  float: right;
+  background-color: green;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 20px;
+
+}
+.secondLeft{
+  border-radius: 25px;
+  height: 100px;
+  background-color: blue;
+  margin-right: 25px;
+  width: 600px;
+}
+
+
+
+.btn {
+
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+}
+
+.btn-alt {
+
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+  text-align: center;
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
